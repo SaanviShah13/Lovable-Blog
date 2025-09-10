@@ -18,9 +18,9 @@ const Hero = () => {
           
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Button asChild size="lg" variant="secondary">
-              <Link to="/blogs/philosophy">Read Latest Blogs</Link>
+              <Link to="/blogs">Read Blogs</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="secondary">
               <Link to="/articles">Browse Articles</Link>
             </Button>
           </div>
